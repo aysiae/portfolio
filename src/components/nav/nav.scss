@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+
+$crimson-font: 'Crimson Text', serif;
+
 #nav {
     display: flex;
     flex-direction: row;
+    margin-left: 50px;
 
     p {
         margin: 10px;
         outline: none;
+        font-family: $crimson-font;
 
         a {
             color: white;

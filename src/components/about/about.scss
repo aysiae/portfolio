@@ -1,12 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap');
+
+$main-font: 'Crimson Pro', serif;
+
 #container {
     margin-top: 50px;
+    margin-left: 50px;
     display: flex;
     flex-direction: row;
+    color: white;
+    font-family: $main-font;
+}
+
+#contact {
+
+    display: flex;
+    flex-direction: column;
+
+    span {
+        display: flex;
+        flex-direction: row;
+        margin-left: 25px;
+        margin-bottom: -20px;
+        img {
+            margin-top: 15px;
+            height: 30px;
+            width: 30px;
+            border: none;
+        }
+
+        p {
+            margin-left: 10px;
+        }
+    }
 }
 
 #about {
     min-width: 400px;
     max-width: 750px;
+    margin-left: 25px;
 }
 
 
@@ -20,6 +51,16 @@
     flex-direction: row;
 }
 
+#decor {
+    display: flex;
+    flex-direction: column;
+    img {
+        margin: 15px;
+        border: 1px solid white;
+        width: 85px;
+        height: 85px;
+    }
+}
 
 
 img {
