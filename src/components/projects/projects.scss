@@ -4,15 +4,24 @@ $cinzel: 'Cinzel', serif;
 
 .card-container {
     background-image: url(https://images.unsplash.com/photo-1467685790346-20bfe73a81f0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80);
+    background-attachment: fixed;
+    background-repeat: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    color: whitesmoke;
 
     .card {
         background-color: rgba(46, 30, 138, 0.25);
         width: 25%;
         margin: 15px;
+        padding: 15px;
+
+        p {
+            text-align: center;
+        }
+
 
         h2 {
             font-family: $cinzel;
@@ -22,7 +31,7 @@ $cinzel: 'Cinzel', serif;
 
         img {
             border: none;
-            border-radius: 100%;
+            width: 100%;
         }
     }
 }
