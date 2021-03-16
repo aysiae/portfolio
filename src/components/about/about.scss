@@ -7,6 +7,8 @@ $main-font: 'Crimson Pro', serif;
     margin-left: 50px;
     display: flex;
     flex-direction: row;
+    align-content: center;
+    justify-content: center;
     color: white;
     font-family: $main-font;
 
@@ -43,7 +45,7 @@ $main-font: 'Crimson Pro', serif;
 
 #about {
     min-width: 400px;
-    max-width: 750px;
+    max-width: 1000px;
     margin-left: 25px;
 }
 

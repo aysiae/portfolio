@@ -17,6 +17,7 @@ $cinzel: 'Cinzel', serif;
         width: 25%;
         margin: 15px;
         padding: 15px;
+        box-shadow: 0 4px 8px rgba(255,255,255,0.2);
 
         p {
             text-align: center;
@@ -35,3 +36,7 @@ $cinzel: 'Cinzel', serif;
         }
     }
 }
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(255,255,255,0.35);
+  }
