@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+
+$h1-font: 'Crimson Text', serif;
+
+
+body  {
+    background-color: black;
+}
+
+
+div {
+    width: 100%;
+    height: 500px;
+    background-image: url(https://images.unsplash.com/photo-1508402476522-c77c2fa4479d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-family: $h1-font;
+}
+
+h2 {
+    color: white;
+    font-family: $h1-font;
+}
