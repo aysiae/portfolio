@@ -12,7 +12,7 @@ function Nav() {
         <>
             <span id='nav'>
                 {nav.map(item => {
-                    return(<p> ↦ {item.title}</p>)
+                    return(<p><a href={item.route}>↦ {item.title}</a></p>)
                 })}
             </span>
         </>
