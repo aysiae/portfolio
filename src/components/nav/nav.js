@@ -5,7 +5,6 @@ function Nav() {
     const [nav, setNav] = useState([
         {title:'about', route:'#about'},
         {title:'projects', route:'#projects'},
-        {title: 'contact', route: '#contact'}
     ])
 
     return(
