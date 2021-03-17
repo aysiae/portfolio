@@ -1,11 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
 
+$crimson: 'Crimson Text', serif;
 $cinzel: 'Cinzel', serif;
+
+#projects {
+    h2 {
+        font-family: $crimson;
+        color: whitesmoke;
+        text-align: center;
+        font-size: 64px;
+        margin-bottom: -35px;
+
+    }
+}
 
 .card-container {
     background-image: url(https://images.unsplash.com/photo-1467685790346-20bfe73a81f0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80);
     background-attachment: fixed;
     background-repeat: none;
+    padding-top: 25px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -14,17 +28,18 @@ $cinzel: 'Cinzel', serif;
 
     .card {
         background-color: rgba(46, 30, 138, 0.25);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
         width: 25%;
         margin: 15px;
         padding: 15px;
-        box-shadow: 0 4px 8px rgba(255,255,255,0.2);
-
-        p {
-            text-align: center;
-        }
+        box-shadow: 0 4px 8px rgba(0,0,0, .2);
 
 
-        h2 {
+
+        h3 {
             font-family: $cinzel;
             color: whitesmoke;
             text-align: center;
@@ -34,9 +49,13 @@ $cinzel: 'Cinzel', serif;
             border: none;
             width: 100%;
         }
+
+        a {
+            color: whitesmoke;
+        }
     }
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(255,255,255,0.35);
+    box-shadow: 0 8px 12px 0 rgba(116, 41, 255, 0.35);
   }
