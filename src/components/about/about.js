@@ -32,7 +32,7 @@ function About() {
 
                     <span>
                         <h4>Are you seeking a full-stack JavaScript developer? </h4>
-                        <p>Hi, I'm Aysia (pronounced: Asia). I'm a 23 year old web developer with proficiency in full stack JavaScript development. I love creating web applications because web development is the perfect union between my two passions of <i>creativity</i> and <i>critical problem solving</i>. As someone with an insatiable desire to learn, I am seeking to join a team of individuals that values and fosters a growth mindset. Technology is as ever evolving as the human experience is.  </p>
+                        <p>Hi, I'm Aysia (pronounced: Asia). I'm a 23 year old web developer with proficiency in full stack JavaScript development. I love creating web applications because web development is the perfect union between my two passions of creativity and critical problem solving. As someone with an insatiable desire to learn, I am seeking to join a team of individuals that values and fosters a growth mindset. Technology is as ever evolving as the human experience is.  </p>
                     </span>
                     
                 </div>
@@ -43,12 +43,12 @@ function About() {
                     </span>
                     <span>
                         <p>➥ Frameworks & Libraries:</p>
-                        <p>NodeJS, ReactJS, Redux, React Native, jQuery, Express, PostgreSQL, MongoDB</p>
+                        <p>NodeJS, ReactJS, Redux, React Native, jQuery, Express, PostgreSQL, MongoDB, Svelte</p>
                     </span>
 
                     <span>
                         <p>➥ Tools:</p>
-                        <p>Git, GitHub, VS Code, AWS, Firebase, SCSS</p>
+                        <p>Git, GitHub, VS Code, AWS (Elastic Beanstalk, S3 Buckets, Lambda Functions), Firebase (Authentication, Realtime Database, Cloudstore Database), SCSS</p>
                     </span>
 
                 </div>
