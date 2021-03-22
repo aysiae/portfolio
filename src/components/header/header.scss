@@ -45,3 +45,14 @@ body  {
     }
 }
 
+@media(max-width: 415px) {
+    .header {
+        width: 100vw;
+
+        h1 {
+            font-size: 75px;
+        }
+    }
+
+}
+
