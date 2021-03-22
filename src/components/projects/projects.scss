@@ -59,3 +59,13 @@ $cinzel: 'Cinzel', serif;
 .card:hover {
     box-shadow: 0 8px 12px 0 rgba(116, 41, 255, 0.35);
   }
+
+  @media(max-width:415px) {
+      .card-container{
+        .card {
+            width: 90%;
+            margin: 5%;
+        }
+      }
+
+  }
