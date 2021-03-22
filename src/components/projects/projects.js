@@ -3,17 +3,20 @@ import './projects.scss';
 // photos
 import Rescuties from '../../assets/rescuties-home.png'
 import Portfolio from '../../assets/portfolio-header.png'
+import ToDo from '../../assets/todo.png';
+import Blackjack from '../../assets/blackjack.png';
 import Writrs from '../../assets/writrs-char.png'
-const placeholder = 'https://images.unsplash.com/photo-1587835053626-f88000149fbf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80';
+const placeholder = 'https://via.placeholder.com/150';
+
 
 
 function Projects() {
     const projects = [
-        {title: 'Writrs', repo: 'https://github.com/aysiae/writing-site', img: Writrs, desc:'A tool for writers made by writers. Still a work in progress, however authentication via Firebase is completed as well as noSQL database read/write for character information.', tools: 'JavaScript, SCSS, ReactJS, Redux, Firebase', site: 'Coming Soon'},
-       // {title: 'E-Commerce Store', repo: 'https://github.com/aysiae/storefront', img: placeholder , desc: 'An example of an E-commerice storefront, grabbing inventory from an API.', tools: 'JavaScript, ReactJS, Redux, Materials-UI, RESTful API', site: ''},
-        // {title: 'Task Manager', repo:'https://github.com/aysiae/todo', img: placeholder, desc: 'A task manager to assign difficulty and tasks to specific persons.', tools: 'JavaScript, ReactJS, SCSS', site: ''},
+       // {title: 'Writrs', repo: 'https://github.com/aysiae/writing-site', img: Writrs, desc:'A tool for writers made by writers. Still a work in progress, however authentication via Firebase is completed as well as noSQL database read/write for character information.', tools: 'JavaScript, SCSS, ReactJS, Redux, Firebase', site: 'Coming Soon'},
+        {title: 'Task Manager', repo: 'https://github.com/aysiae/todo', img: ToDo , desc: 'A task manager that allows a suser to add a new task with a difficulty, and assign it to a person. The tasks can be toggled as pending completion or completed.', tools: 'JavaScript, ReactJS, BootstrapJS, SCSS', site: 'https://aysiabrown-401d39-advanced-javascript.github.io/todo/'},
+        {title: 'Blackjack API', repo:'https://github.com/aysiae/blackjack', img: Blackjack, desc: 'A fully functional REST API for Blackjack that can be utilized through a front end. The API accounts for player turns, dealer turns, bets and distributes winnings before saving user data to the database.', tools: 'JavaScript, MongoDB, Express, Jest', site: 'https://latte-blackjack.herokuapp.com/'},
         {title: 'Rescuties', repo:'https://github.com/aysiae/rescuties', img: Rescuties, desc:'Bridging the information gap between prospective pet owners and adoptable shelter pets. Authentication is used to manage protected vs public routes, and allows users to save their favorite pets to their accounts.', tools: 'JavaScript, ReactJS, Redux, Materials-UI, ReactStrap, Firebase', site: 'https://rescuties-401d39.web.app/page'},
-        {title: 'Portfolio (this!)', repo:'https://github.com/aysiae/portfolio', img: Portfolio, desc: 'A web developer portfolio site.', tools:'JavaScript, SCSS, ReactJS', site: 'Coming Soon'}
+        // {title: 'Portfolio (this!)', repo:'https://github.com/aysiae/portfolio', img: Portfolio, desc: 'A web developer portfolio site.', tools:'JavaScript, SCSS, ReactJS', site: 'https://aysiabrown.herokuapp.com/'}
     ]
 
     return(
