@@ -5,7 +5,13 @@ $crimson-font: 'Crimson Text', serif;
 #nav {
     display: flex;
     flex-direction: row;
-    margin-left: 50px;
+
+
+    img {
+        width: 24px;
+        height: 24px;
+        margin-top: 10px;
+    }
 
     p {
         margin: 10px;
