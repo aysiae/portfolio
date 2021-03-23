@@ -5,6 +5,8 @@ import Projects from './components/projects/projects'
 import FunFacts from './components/fun/fun';
 import Footer from './components/footer/footer'
 
+import './App.scss';
+
 
 function App() {
   return (

@@ -85,6 +85,10 @@ $main-font: 'Crimson Pro', serif;
 
 
 @media(max-width: 415px) {
+    body {
+        overflow-x: hidden;
+    }
+
     #container {
         margin-top: 50px;
         margin-left: 15px;

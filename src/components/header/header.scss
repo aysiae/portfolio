@@ -5,6 +5,7 @@ $h1-font: 'Crimson Text', serif;
 
 body  {
     background-color: black;
+    overflow-x: hidden;
 }
 
 
@@ -46,6 +47,7 @@ body  {
 }
 
 @media(max-width: 415px) {
+
     .header {
         width: 100vw;
 
